@@ -6,5 +6,5 @@ from .models import Phone
 class PhoneSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Phone
-        fields = ('id', 'brand', 'model', 'price')
+        fields = ('id', 'brand', 'model', 'price', 'img', 'desc')
 
